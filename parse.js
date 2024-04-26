@@ -1,3 +1,4 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const allResults = await Promise.all(items.map(async (item) => {}));
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log( "A" - "B" + 2);
