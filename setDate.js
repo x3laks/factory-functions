@@ -1,6 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const channelName = getChannelName(channel);
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-var c = new Counter(); c.add(); c.add(); c.add();
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
