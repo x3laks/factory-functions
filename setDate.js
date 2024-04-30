@@ -1,3 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const repositoryRootPath = path.resolve(__dirname, '..');
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+console.log("0 || 1 = "+(0 || 1));
+console.log(+"1" +  "1" + "2");
