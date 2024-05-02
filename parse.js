@@ -1,4 +1,3 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-console.log( "A" - "B" + 2);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log(false === '0');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
