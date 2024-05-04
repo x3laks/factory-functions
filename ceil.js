@@ -1,3 +1,2 @@
-console.log(false === '0');
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const merge = [...new Set(a.concat(b))];
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const fullName = name || 'buddy';
