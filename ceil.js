@@ -1,2 +1,2 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const fullName = name || 'buddy';
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
