@@ -1,2 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log("0 || 1 = "+(0 || 1));
+console.log(1 +  +"2" + "2");
+const fullName = name || 'buddy';
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
