@@ -1,1 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const minNumber = arr => Math.min(...arr);
+var arr3 = "jones".split('');
