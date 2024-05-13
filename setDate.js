@@ -1,2 +1,3 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const merge = [...new Set([...a, ...b])];
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const toggleBool = () => (bool = !bool);
+console.log(1 +  +"2" + "2");
