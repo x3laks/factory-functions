@@ -1,3 +1,2 @@
-console.log(1 +  +"2" + "2");
-const fullName = name || 'buddy';
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
