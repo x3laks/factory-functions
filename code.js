@@ -1,2 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const isTabInView = () => !document.hidden;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
