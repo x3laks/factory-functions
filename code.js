@@ -1,3 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-var arr2 = arr1.reverse();
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
