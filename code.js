@@ -1,2 +1,3 @@
-const isTabInView = () => !document.hidden;
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const randomBoolean = () => Math.random() >= 0.5;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+var arr2 = arr1.reverse();
