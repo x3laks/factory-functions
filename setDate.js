@@ -1,3 +1,3 @@
-var DELIM_SIZE = 4;
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const randomString = () => Math.random().toString(36).slice(2);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
