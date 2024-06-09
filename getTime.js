@@ -1,1 +1,1 @@
-const isArray = (arr) => Array.isArray(arr);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
