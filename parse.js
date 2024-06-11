@@ -1,2 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
