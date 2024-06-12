@@ -1,1 +1,1 @@
-const isTabInView = () => !document.hidden;
+console.log("0 || 1 = "+(0 || 1));
