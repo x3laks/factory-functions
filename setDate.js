@@ -1,3 +1,2 @@
-console.log(1 +  -"1" + "2");
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const channelName = getChannelName(channel);
+const isTabInView = () => !document.hidden;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
