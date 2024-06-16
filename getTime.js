@@ -1,2 +1,3 @@
-console.log(1 +  "2" + "2");
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const appName = getAppName(channel);
+const uniqueArr = (arr) => [...new Set(arr)];
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
