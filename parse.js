@@ -1,2 +1,2 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const isEmptyArray = arr => !arr.length;
+const appName = getAppName(channel);
+const stringReverse = str => str.split("").reverse().join("");
