@@ -1,2 +1,2 @@
-const appName = getAppName(channel);
-const stringReverse = str => str.split("").reverse().join("");
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
