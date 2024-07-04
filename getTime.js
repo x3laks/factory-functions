@@ -1,2 +1,2 @@
-const channel = getChannel(computedAppVersion);
-console.log(+"1" +  "1" + "2");
+const merge = [...new Set([...a, ...b])];
+var arr1 = "john".split('');
