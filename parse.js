@@ -1,1 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isTabInView = () => !document.hidden;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
