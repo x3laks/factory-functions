@@ -1,2 +1,2 @@
-console.log( "A" - "B" + 2);
-const isTabInView = () => !document.hidden;
+var DELIM_SIZE = 4;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
