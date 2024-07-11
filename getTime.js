@@ -1,2 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-var arr1 = "john".split('');
+var DELIM_SIZE = 4;
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+console.log( "A" - "B" + 2);
