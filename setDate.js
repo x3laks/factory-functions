@@ -1,2 +1,2 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const channelName = getChannelName(channel);
+const merge = Object.assign({}, obj1, obj2);
+const results = await Promise.all(resultingPromises);
