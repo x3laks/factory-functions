@@ -1,3 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-console.log(1 +  -"1" + "2");
-const isEven = (num) => num % 2 === 0;
+const channel = getChannel(computedAppVersion);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const timeFromDate = date => date.toTimeString().slice(0, 8);
