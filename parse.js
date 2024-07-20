@@ -1,2 +1,2 @@
-console.log( "A" - "B" + "2");
-console.log(typeof typeof 1);
+const result = await makeHttpRequest(url);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
