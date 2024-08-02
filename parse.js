@@ -1,2 +1,2 @@
-const channelName = getChannelName(channel);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log("1 || 2 = "+(1 || 2));
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
