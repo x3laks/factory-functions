@@ -1,2 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log("0 || 1 = "+(0 || 1));
+const allResults = await Promise.all(items.map(async (item) => {}));
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
