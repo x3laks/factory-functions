@@ -1,1 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+console.log(false === '0');
